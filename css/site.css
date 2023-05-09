@@ -1,0 +1,193 @@
+*{
+    font-family: sans-serif;
+    color: white;
+}
+.top{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url(../images/head-background.jpg);
+    background-size:cover;
+    background-position: center center;
+    width: 100%;
+    height: 100%;
+}
+.top1{
+    display:flex;
+    flex-direction:row;
+    border-bottom: 1px solid white;
+    justify-content:space-between;
+    align-items: center; 
+}
+.hotline{
+    background-color: #2D8C15;
+    height: 40px;
+    width: 411px;
+    text-align: center;
+    font-size: 26px;
+    font-weight: 500;
+    padding-top: 13.5px;
+    margin-left: 262px;
+    border-radius: 3px;
+    font-weight: bolder;
+   
+}
+.top2{
+    background-color: rgb(103,139,55);
+    border: 8px solid #DCE085;
+    width: 330px;
+    text-align: center;
+    margin-top: 50px;
+    margin-right: 384px;
+    margin-bottom: 40px;
+} 
+.login{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+}
+.login input{
+    width: 277px;
+    background-color: rgb(103,139,55);
+    border-top: 1px solid #628138 ;
+    border-bottom: 1px solid rgb(188, 199, 168);
+    border-left: #81AF53;
+    border-right:#81AF53 ;
+    height: 25px;
+    font-size: 12.5px;
+  }
+  .big{
+    font-size: 1.7rem;
+  }
+.dangky{
+    background-color: #C5D301;
+    width: 140px;
+    height: 35px;
+    text-align: center;
+    margin-bottom: 29px;
+    padding-top: 15px;
+}
+::placeholder{color: white;}
+.small{
+    font-style: italic;
+    line-height: 23px;
+}
+.mid{
+    display: flex;
+    flex-direction: column;
+    font-size: 15px;
+    margin-top: 15px;
+}
+.mid >div{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.mid >div img{
+    object-fit: cover;
+    width: 22%;
+    border: 3px solid #49A333;
+    border-radius: 14px;
+    border-style: dashed;
+}
+.mid1{
+    width: 100%;
+    height: 50%;
+    padding-left: 65px;
+}
+.mid1 >div{
+    text-align:justify;
+    width: 413px;
+    margin-left:25px;
+    line-height: 19px;
+    font-weight: bold;  
+    margin-bottom: 42px;
+    color: black;
+}
+.mid2 >div{
+    text-align:justify;
+  width: 413px;
+  margin-right: 25px;
+  font-weight: bold; 
+  color: black;
+  padding-bottom: 113px;
+  }
+  .mid2{
+    width: 100%;
+    height: 50%;
+    text-align: justify;
+    margin-left: 63px;
+    padding-top: 40px;
+  }
+  .under{
+    background-color: #81AF53;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    padding: 20px;
+  }
+  .under >div{
+    width: 550px;
+    text-align: justify;
+    font-size: 13px;
+    margin-left: 125px;
+    line-height: 18px;
+  }
+  .under img{
+    margin-left: 20px;
+  }
+  .under h1{
+    padding-bottom: 8px;
+  }
+  .bottom{
+    background-color: #DCE085;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-left: 124px;
+  }
+  .bottom >div ::placeholder{
+    color: black;
+  }
+  .bottom .res1{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+  }
+.bottom .res2{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+}
+.dangky2{
+    background-color: #2A6E01;
+    padding: 8px;
+    object-fit: cover;
+    width: 50%;
+    text-align: center;
+}
+.bottom >div{
+    width:858px;
+}
+  
+.bottom >div h1{
+    color: #2A6E01;
+    text-align: center;
+    font-size: 25px;
+}
+.res1 input{
+    object-fit: cover;
+    width:50%;
+    padding: 8px;
+}
+.res2 input{
+    object-fit: cover;
+    width: 50%;
+    padding: 8px;
+}
